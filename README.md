@@ -3,7 +3,7 @@ An incredibly simple, low-dependency PHP and file-based status
 page system. No composer or anything else...
 
 All you need to run it is:
-- An Apache2 webspace
+- An Apache2-powered webspace
 - PHP 7.2+
 
 ## Screenshots
