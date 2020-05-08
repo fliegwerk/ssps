@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>'
 					<?= $entry->message ?>
                 </description>
                 <pubDate><?= date_format(new DateTime($entry->date), DATE_RFC822) ?></pubDate>
-                <guid isPermaLink="false"><?= $index . ':' . $entry->date ?></guid>
+                <guid isPermaLink="false"><?= $entry->date ?></guid>
             </item>
 		<?php endforeach; ?>
     </channel>
