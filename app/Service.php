@@ -8,11 +8,11 @@ use DateTime;
 
 class Service
 {
-	private string $name;
-	public string $title;
-	private object $data;
+	private $name;
+	public $title;
+	private $data;
 
-	private array $entries;
+	private $entries;
 
 	/**
 	 * Service constructor.
@@ -38,7 +38,7 @@ class Service
 		});
 	}
 
-	public function getState(): object
+	public function getState()
 	{
 		$entries = $this->getEntries();
 		if (sizeof($entries) < 1) {
